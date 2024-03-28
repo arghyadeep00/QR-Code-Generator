@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #a36c6c; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+/* end main contenet styleing */
+/* ---------------------------- */
+/* start two div styleing */
+.messege{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(129, 136, 129); */
+    background: linear-gradient(to right, #1fa2ff, #3de9cc,  #3580e4);
+    width: 100%;
+}
+.messege form{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.messege #text{
+    width: 50%;
+    height: 2.4rem;
+    padding: 1rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.messege #btn{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.messege #btn:hover{
+    color: white;
+    background-color: rgb(12, 74, 102);
+}
+
+/* --------------- start image section -------------  */
+
+.image-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right,  #3580e4, #32bfe2, #6a82fb);
+}
+.image-section img{
+    width: 230px;
+}
+.image-section a{
+    margin-top: 3rem;
+    background-color: rgb(224, 228, 230);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.image-section a:hover{
+    background-color: #cac7c7;
+}
+/* --------------- responsive section -----------------  */
+@media only screen and (max-width:512px){
+    .main{
+        flex-direction: column;
+        
+    }
+    .messege{
+        height: 30%;
+    }
+    .image-section{
+        height: 70%;
+    }
+}

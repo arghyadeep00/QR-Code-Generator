@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Qr Code generator</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="messege">
+        <form action="/data" method="POST">
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Enter text here"
+          />
+          <br />
+          <a type="submit" id="btn">SUBMIT</a>
+        </form>
+      </div>
+      <div class="image-section">
+        <div class="image">
+          <img width="300px" src="images/output.png" alt="image">
+        </div>
+        <a class="download-btn" href="images/output.png" download>Download Image</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

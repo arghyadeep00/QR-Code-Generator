@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(70, 175, 117);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 80px;
+    gap: 10px;
+   
+}
+.messege{
+    width: 50%;
+    height: 90%;
+    background-color: rgb(85, 111, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    gap: 8px;
+}
+.messege #text{
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+}
+.messege #btn{
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.image-section{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.download-btn{
+    padding: 10px;
+    background-color: rgb(82, 175, 82);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1203px) {
+    .main{
+        flex-direction: column;
+    }
+    .messege{
+        width: 100%;
+    }
+    .image-section{
+        width: 100%;
+        height: auto;
+    }
+}
