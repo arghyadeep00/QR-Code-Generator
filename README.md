@@ -6,6 +6,7 @@ This web app made by node js && some npm packages.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/arghyadeep00/QR-Code-Generator/assets/86821795/f4ddf9aa-d907-4cf3-bac5-4830ffc91721)
+![Screenshot 2024-07-03 160143](https://github.com/arghyadeep00/QR-Code-Generator/assets/86821795/6defda6f-4f59-4ef3-a910-6b938bf82d63)
+
 
 
